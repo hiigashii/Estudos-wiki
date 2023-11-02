@@ -1,9 +1,43 @@
 body {
-    background-color:paleturquoise
+    background-color:darkcyan;
+    margin-left: 5px;
+    margin-right: 5px;
 }
-p {
-    font:normal 18px Arial;
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px 10px 10px 20px ;
+    border-radius: 30px;
+    
 }
-a {
-    font:normal 18px Arial;
+h1{
+    text-align: center;
+}
+a{
+    font: normal 20px arial;
+    color: black;
+    text-decoration: none;
+}
+p{
+    font: normal 18px arial;
+}
+h2{
+    text-align: center;
+}
+#rodape{
+    margin-top: 250px;
+    margin-bottom: 0px;
+    list-style: none;
+    border: none;
+}
+.l-rodape{
+    font: normal 12px arial
+    
+}
+.container{
+    display: inline-block;
+    vertical-align: middle;
+    
 }
