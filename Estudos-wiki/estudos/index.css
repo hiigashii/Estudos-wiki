@@ -68,7 +68,7 @@ h2{
 .none{
     border: none;
 }
-a:hover{
+.l-header:hover{
     font: normal 25px arial;
     font-weight: bold ;
 }
