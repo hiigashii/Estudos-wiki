@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-container">
+                    <a href="estudos/index.html">Estudos</a>
+                </li>
+                <li class="nav-container">
+                    <a href="index.html">Página incial</a>
+                </li>
+                <li class="none">
+                    <a href="contato/index.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="title">
+        <h1>Higashi wiki</h1>
+    </div>
+    <div>
+        <p>
+            Olá, para entrar em contato basta insirir seu email e sua mensagem abaixo.<br>
+            Desde já agradeço o contato.
+        </p>
+    </div>
+    <div>
+        <form action="https://formsubmit.co/gabrieleric08@gmail.com" method="POST">
+            <label for="email">Email</label>
+            <input  type="email" name="email" id="email" required>
+            <label for="message">Mensagem</label>
+            <input type="text" name="email" id="message" required>
+            <button onclick="exibir()" type="submit">Send</button>
+       </form>
+    </div>
+    <div style="display: none;" class="sucesso" id="sucesso">
+        <img id ="verificado" src="imagens/verificado.png" alt="">
+        <p>
+            Seu email foi enviado com sucesso!<br>
+            Retornarei assim que possível.
+        </p>
+        
+    </div>
+    <script>
+        function exibir(){
+            var suc = document.getElementById('sucesso')
+            suc.style.display = "block";
+        }
+        
+    </script>
+</body>
+</html>
